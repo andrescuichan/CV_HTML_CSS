@@ -1,0 +1,143 @@
+
+div.caja_cabezera{
+    width:100%; 
+    height:280px;
+    float:left;
+}
+div.caja_cabezera_1{
+    width:60%; 
+    height:70%; 
+    float:left; 
+    background-color: #3EC1ED;
+}
+div.caja_cabezera_2{
+    width:40%; 
+    height:70%; 
+    float:left; 
+    background-color: #34A2C7;    
+}
+div.caja_datos_contacto{
+    width:60%; 
+    height:100%; 
+    margin:auto;
+}
+div.caja_cabezera_3{
+    width:100%;
+    height:30%; 
+    background-color: #3AB6E0; 
+    float:left;
+}
+div.caja_estudiante{
+    width:60%; 
+    height:100%; 
+    float:left; 
+    text-align: center; 
+}
+
+
+div.caja_cuerpo{
+    width:100%; 
+    height:900px; 
+    float:left; 
+    border: 2px solid red;
+}
+
+div.caja_cuerpo_1{
+    width:100%; 
+    height:30%; 
+    float:left;
+}
+div.caja_informacion_general{
+    width:80%; 
+    height:100%; 
+    margin: auto;
+}
+
+div.caja_cuerpo_2{
+    width:100%; 
+    height:69%; 
+    float:left;
+}
+div.caja_academica_experiencia{
+    width:80%; 
+    height:93%; 
+    margin: auto; 
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+div.caja_academica{
+    width:48%; 
+    height:100%; 
+    float: left;
+}
+div.caja_experiencia{
+    width:49%; 
+    height:100%;
+    float: left; 
+    border-left:2px solid black; 
+    padding-left: 20px;
+}
+
+
+h1.titulo_nombre{
+    font-size: 50px;
+    font-family: 'Geneva';
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+h1.titulo_cabecera{
+    font-family: 'Times New Roman';
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+h1.titulo_cabecera_2{
+    font-family: 'Times New Roman';
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+.texto_contacto{
+    color: white;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Times New Roman';
+    font-size: 28px;
+}
+
+h2.titulo_cuerpo_center{
+    text-align: center;
+    font-weight: 600;
+    color: #34A2C7;
+}
+
+h2.titulo_cuerpo_left{
+    text-align: left;
+    font-weight: 600;
+    color: #34A2C7;
+}
+
+h2.subtitulo_cuerpo_left{
+    text-align: left;
+    font-weight: 600;
+    color: #3AB6E0;
+    font-size: 25px;
+}
+
+#mintitulo_cuerpo{
+    color: #3EC1ED;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+.body_texto{
+    color: #5b5858; 
+    font-family: 'Arial'; 
+    font-size: 20px;
+}
