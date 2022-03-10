@@ -1,70 +1,56 @@
 
+
 div.caja_cabezera{
-    width:100%; 
+    width: 90%; 
     height:280px;
-    float:left;
+    margin: auto;
 }
 div.caja_cabezera_1{
     width:60%; 
     height:70%; 
     float:left; 
     background-color: #3EC1ED;
+    text-align: center;
+    
 }
 div.caja_cabezera_2{
     width:40%; 
     height:70%; 
     float:left; 
-    background-color: #34A2C7;    
+    background-color: #34A2C7;
+    text-align: center;
+    
 }
-div.caja_datos_contacto{
-    width:60%; 
-    height:100%; 
-    margin:auto;
-}
+
 div.caja_cabezera_3{
     width:100%;
     height:30%; 
     background-color: #3AB6E0; 
     float:left;
-}
-div.caja_estudiante{
-    width:60%; 
-    height:100%; 
-    float:left; 
-    text-align: center; 
+    text-align: center;
 }
 
 
 div.caja_cuerpo{
-    width:100%; 
-    height:900px; 
-    float:left; 
-    border: 2px solid red;
+    width:75%; 
+    height:1100px; 
+    margin: auto;
 }
 
 div.caja_cuerpo_1{
     width:100%; 
-    height:30%; 
+    height:27%; 
     float:left;
 }
-div.caja_informacion_general{
-    width:80%; 
-    height:100%; 
-    margin: auto;
-}
-
 div.caja_cuerpo_2{
     width:100%; 
-    height:69%; 
+    height:60%; 
     float:left;
-}
-div.caja_academica_experiencia{
-    width:80%; 
-    height:93%; 
-    margin: auto; 
     border-top: 2px solid black; 
     border-bottom: 2px solid black;
+    overflow:hidden;
 }
+
 div.caja_academica{
     width:48%; 
     height:100%; 
@@ -83,7 +69,6 @@ h1.titulo_nombre{
     font-size: 50px;
     font-family: 'Geneva';
     color: white;
-    text-align: center;
     font-weight: 900;
 }
 
@@ -141,3 +126,43 @@ h2.subtitulo_cuerpo_left{
     font-family: 'Arial'; 
     font-size: 20px;
 }
+
+
+@media screen and (max-width: 1300px){
+    div.caja_cabezera{
+        width:75%; 
+    }
+   
+    div.caja_cabezera_1{
+        background-color: #3EC1ED;
+        height: 45%;
+        width: 100%;        
+    }
+    h1.titulo_nombre{
+        font-size: 35px;
+    }
+
+    div.caja_cabezera_2{
+        background-color: #3AB6E0;
+        height: 40%;
+        width: 100%;
+        clear: left;
+    }
+    h1.titulo_cabecera_2{
+        font-size: 20px;
+    }
+    .texto_contacto{
+        font-size: 15px;
+    }
+    div.caja_cabezera_3{
+        background-color: #34A2C7;
+        width: 100%;
+        height: 15%;
+    }
+    h1.titulo_cabecera{
+
+        font-size: 20px;
+    }
+}
+
+
